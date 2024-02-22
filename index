@@ -1,1 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Video Player</title>
+</head>
+<body>
+<audio autoplay loop>
+  <source src="background-music.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
 
+<video width="640" height="360" autoplay muted loop>
+  <source src="" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+</body>
+</html>
