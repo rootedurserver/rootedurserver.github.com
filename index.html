@@ -15,14 +15,14 @@
     position: fixed;
     top: 0;
     left: 0;
-    min-width: 100%;
-    min-height: 100%;
-    z-index: -1; /* Ensures video is behind other content */
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Adjusted */
   }
 </style>
 </head>
 <body>
-<video autoplay muted loop>
+<video autoplay muted loop playsinline>
   <source src="https://raw.githubusercontent.com/rootedurserver/rootedurserver.github.com/main/defaced.mp4" type="video/mp4">
   - OOPS! LOOKS LIKE WE ROOTED YOUR SERVER -
 </video>
